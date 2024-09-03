@@ -1,0 +1,39 @@
+PODS:
+  - braze_plugin (11.0.0):
+    - BrazeKit (~> 10.2.0)
+    - BrazeLocation (~> 10.2.0)
+    - BrazeUI (~> 10.2.0)
+    - Flutter
+  - BrazeKit (10.2.0)
+  - BrazeLocation (10.2.0):
+    - BrazeKit (= 10.2.0)
+  - BrazeUI (10.2.0):
+    - BrazeKit (= 10.2.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - braze_plugin (from `.symlinks/plugins/braze_plugin/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - BrazeKit
+    - BrazeLocation
+    - BrazeUI
+
+EXTERNAL SOURCES:
+  braze_plugin:
+    :path: ".symlinks/plugins/braze_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  braze_plugin: 865e90076b38854bb179cf1ad744bd9a2f33dadb
+  BrazeKit: d58de08d08d501c956f5cbaaa1d8d13df6d86ce4
+  BrazeLocation: e263ee165e306d4e1880d14a3083ae250ee35e90
+  BrazeUI: 048cf6a995ab63d4b42083939d1837b4e24600f8
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
