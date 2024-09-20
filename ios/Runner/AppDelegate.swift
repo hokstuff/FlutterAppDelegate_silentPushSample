@@ -4,8 +4,8 @@ import BrazeKit
 import BrazeUI
 import braze_plugin
 
-let brazeApiKey = "9292484d-3b10-4e67-971d-ff0c0d518e21"
-let brazeEndpoint = "sondheim.braze.com"
+let brazeApiKey = "< removed >"
+let brazeEndpoint = "< removed >"
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {
