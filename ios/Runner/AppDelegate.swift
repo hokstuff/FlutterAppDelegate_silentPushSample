@@ -7,7 +7,7 @@ import braze_plugin
 let brazeApiKey = "9292484d-3b10-4e67-971d-ff0c0d518e21"
 let brazeEndpoint = "sondheim.braze.com"
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate {
 
   static var braze: Braze? = nil
@@ -28,8 +28,9 @@ let brazeEndpoint = "sondheim.braze.com"
     configuration.logger.level = .info
     configuration.triggerMinimumTimeInterval = 1
     
-//    // Push Auto
+//    // Disable Push Automation which uses swizzling
 //    configuration.push.automation = true
+
     let braze = BrazePlugin.initBraze(configuration)
     AppDelegate.braze = braze
 
